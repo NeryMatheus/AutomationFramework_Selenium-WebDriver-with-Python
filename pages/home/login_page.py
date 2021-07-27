@@ -1,9 +1,11 @@
 from selenium.webdriver.common.by import By
+from base.selenium_driver import SeleniumDriver
 
 
-class LoginPage():
+class LoginPage(SeleniumDriver):
 
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
     # Locators
@@ -27,16 +29,16 @@ class LoginPage():
     # ================================================================================
 
     def clickLoginLink(self):
-        self.getLoginLink().click()
+        self.elementClick(self._loginLink, locatorType="xpath")
 
     def enterEmail(self, email):
-        self.getEmailField().send_keys(email)
+        self.sendKeys(email, self._emailField)
 
     def enterPassword(self, password):
-        self.getPasswordField().send_keys(password)
+        self.sendKeys(password, self._passwordField)
 
     def clickLoginButton(self):
-        self.getLoginButton().click()
+        self.elementClick(self._loginButton, locatorType="xpath")
 
     # ===============================================================
 
