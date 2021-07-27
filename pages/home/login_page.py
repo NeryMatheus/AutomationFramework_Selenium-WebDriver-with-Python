@@ -6,19 +6,42 @@ class LoginPage():
     def __init__(self, driver):
         self.driver = driver
 
-    def login(self, username, password):
-        # Cliclando no botão de Login
-        loginLink = self.driver.find_element(By.XPATH, "//a[@href='/login']")
-        loginLink.click()
+    # Locators
+    _loginLink = "//a[@href='/login']"
+    _emailField = "email"
+    _passwordField = "password"
+    _loginButton = "//input[@value='Login']"
 
-        # Encontrando e preenchando o campo email
-        emailField = self.driver.find_element(By.ID, "email")
-        emailField.send_keys(username)
+    def getLoginLink(self):
+        return self.driver.find_element(By.XPATH, self._loginLink)
 
-        # Encontrando e preenchando o campo senha
-        passwordField = self.driver.find_element(By.ID, "password")
-        passwordField.send_keys(password)
+    def getEmailField(self):
+        return self.driver.find_element(By.ID, self._emailField)
 
-        # Apertando o botão de Log in
-        loginButton = self.driver.find_element(By.XPATH, "//input[@value='Login']")
-        loginButton.click()
+    def getPasswordField(self):
+        return self.driver.find_element(By.ID, self._passwordField)
+
+    def getLoginButton(self):
+        return self.driver.find_element(By.XPATH, self._loginButton)
+
+    # ================================================================================
+
+    def clickLoginLink(self):
+        self.getLoginLink().click()
+
+    def enterEmail(self, email):
+        self.getEmailField().send_keys(email)
+
+    def enterPassword(self, password):
+        self.getPasswordField().send_keys(password)
+
+    def clickLoginButton(self):
+        self.getLoginButton().click()
+
+    # ===============================================================
+
+    def login(self, email, password):
+        self.clickLoginLink()
+        self.enterEmail(email)
+        self.enterPassword(password)
+        self.clickLoginButton()
