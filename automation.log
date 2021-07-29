@@ -1,0 +1,16 @@
+SeleniumDriver: 29/07/2021 12:21:45 PM INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+SeleniumDriver: 29/07/2021 12:21:46 PM INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+SeleniumDriver: 29/07/2021 12:21:46 PM INFO: Element Found with locator: email and locatorType: id
+SeleniumDriver: 29/07/2021 12:21:47 PM INFO: Sent data on the element with locator: email and locatorType: id
+SeleniumDriver: 29/07/2021 12:21:47 PM INFO: Element Found with locator: password and locatorType: id
+SeleniumDriver: 29/07/2021 12:21:47 PM INFO: Sent data on the element with locator: password and locatorType: id
+SeleniumDriver: 29/07/2021 12:21:47 PM INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+SeleniumDriver: 29/07/2021 12:21:52 PM INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 29/07/2021 12:29:52 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 29/07/2021 12:29:53 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 29/07/2021 12:29:57 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
