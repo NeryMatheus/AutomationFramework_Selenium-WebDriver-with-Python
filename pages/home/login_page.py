@@ -3,8 +3,8 @@ from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 import logging
 
-class LoginPage(SeleniumDriver):
 
+class LoginPage(SeleniumDriver):
     log = cl.CustomLogger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -33,8 +33,17 @@ class LoginPage(SeleniumDriver):
 
     # ===============================================================
 
-    def login(self, email, password):
+    def login(self, email="", password=""):
         self.clickLoginLink()
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickLoginButton()
+
+    def verifyLoginSuccessful(self):
+        result = self.isElementPresent("//button[@id='dropdownMenu1']//span[text()='My Account']", "xpath")
+        return result
+
+    def verifyLoginFailed(self):
+        result = self.isElementPresent("//span[contains(text(), 'Your username or password is invalid. Please try again"
+                                       ".')]", "xpath")
+        return result
