@@ -1,8 +1,7 @@
-import time
-
 from pages.home.login_page import LoginPage
 import unittest
 import pytest
+import time
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -15,8 +14,10 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=2)
     def test_validLogin(self):
         self.login_Page.login("test@email.com", "abcabc")
-        result = self.login_Page.verifyLoginSuccessful()
-        assert result == True
+        result1 = self.login_Page.verifyTitle()
+        assert result1 == True
+        result2 = self.login_Page.verifyLoginSuccessful()
+        assert result2 == True
 
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
