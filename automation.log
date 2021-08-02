@@ -83,3 +83,63 @@ LoginPage: 31/07/2021 03:59:48 PM - INFO: Element Found with locator: //input[@v
 LoginPage: 31/07/2021 03:59:51 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
 LoginPage: 31/07/2021 03:59:51 PM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
 LoginPage: 31/07/2021 03:59:51 PM - INFO: Found element
+LoginPage: 02/08/2021 09:55:34 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:34 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:34 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:55:34 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:55:34 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:55:35 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:55:35 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:37 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:37 AM - INFO: Element Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:37 AM - INFO: Found element
+LoginPage: 02/08/2021 09:55:37 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:55:38 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:41 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:41 AM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 02/08/2021 09:55:41 AM - INFO: Found element
+LoginPage: 02/08/2021 09:56:59 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:57:01 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:04 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:04 AM - INFO: Element not Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:04 AM - INFO: Elements not found
+LoginPage: 02/08/2021 09:57:04 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:57:05 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:08 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:08 AM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 02/08/2021 09:57:08 AM - INFO: Found element
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:58:35 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:37 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:39 AM - INFO: Element Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:39 AM - INFO: Found element
+LoginPage: 02/08/2021 09:58:39 AM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:40 AM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:40 AM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:58:41 AM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 02/08/2021 09:58:41 AM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:58:41 AM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 02/08/2021 09:58:41 AM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:43 AM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:43 AM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 02/08/2021 09:58:43 AM - INFO: Found element
