@@ -356,3 +356,45 @@ JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628010595505	geckodriver	INFO	Listening on 127.0.0.1:59200
+1628010598466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofileLrQhrM"
+1628010599475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofileLrQhrM\\search.json.mozlz4", (void 0)))
+1628010605130	Marionette	INFO	Listening on port 59208
+1628010605418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+1628010621967	Marionette	INFO	Stopped listening on port 59208
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628010776552	geckodriver	INFO	Listening on 127.0.0.1:65039
+1628010779587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofilenlSDij"
+1628010780629	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofilenlSDij\\search.json.mozlz4", (void 0)))
+1628010785914	Marionette	INFO	Listening on port 65047
+1628010786059	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+1628010801264	Marionette	INFO	Stopped listening on port 65047
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1628012547057	geckodriver	INFO	Listening on 127.0.0.1:59072
+1628012550001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofile9bgtt7"
+1628012551006	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Mathe\\AppData\\Local\\Temp\\rust_mozprofile9bgtt7\\search.json.mozlz4", (void 0)))
+1628012556440	Marionette	INFO	Listening on port 59080
+1628012556960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60076, line 33: unreachable code after return statement
+1628012573768	Marionette	INFO	Stopped listening on port 59080

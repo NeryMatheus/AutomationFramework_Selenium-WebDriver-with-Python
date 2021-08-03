@@ -189,3 +189,80 @@ LoginPage: 03/08/2021 12:19:55 PM - INFO: Element Found with locator: //button[@
 LoginPage: 03/08/2021 12:19:55 PM - INFO: Found element
 TestStatus: 03/08/2021 12:19:55 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was successful
 TestStatus: 03/08/2021 12:19:55 PM - ERROR: test_validLogin #### TEST FAILED 
+LoginPage: 03/08/2021 01:10:14 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:10:15 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:17 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:17 PM - INFO: Element Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:17 PM - INFO: Found element
+TestStatus: 03/08/2021 01:10:17 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was not successful
+TestStatus: 03/08/2021 01:10:17 PM - INFO: test_invalidLogin #### TEST SUCCESSFUL
+LoginPage: 03/08/2021 01:10:17 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:18 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:19 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:10:19 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:10:19 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:10:19 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:10:19 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:21 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+TestStatus: 03/08/2021 01:10:21 PM - INFO: #### VERIFICATION SUCCESSFUL :: Title Verified
+LoginPage: 03/08/2021 01:10:21 PM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 03/08/2021 01:10:21 PM - INFO: Found element
+TestStatus: 03/08/2021 01:10:21 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was successful
+TestStatus: 03/08/2021 01:10:21 PM - INFO: test_validLogin #### TEST SUCCESSFUL
+LoginPage: 03/08/2021 01:13:14 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:13:15 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:16 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:16 PM - INFO: Element Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:16 PM - INFO: Found element
+TestStatus: 03/08/2021 01:13:16 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was not successful
+TestStatus: 03/08/2021 01:13:16 PM - INFO: test_invalidLogin #### TEST SUCCESSFUL
+LoginPage: 03/08/2021 01:13:17 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:13:18 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:21 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+TestStatus: 03/08/2021 01:13:21 PM - INFO: #### VERIFICATION SUCCESSFUL :: Title Verified
+LoginPage: 03/08/2021 01:13:21 PM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 03/08/2021 01:13:21 PM - INFO: Found element
+TestStatus: 03/08/2021 01:13:21 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was successful
+TestStatus: 03/08/2021 01:13:21 PM - INFO: test_validLogin #### TEST SUCCESSFUL
+LoginPage: 03/08/2021 01:42:46 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:42:47 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:49 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:49 PM - INFO: Element Found with locator: //span[contains(text(), 'Your username or password is invalid. Please try again.')] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:49 PM - INFO: Found element
+LoginPage: 03/08/2021 01:42:49 PM - INFO: Element Found with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Clicked on the element with locator: //a[@href='/login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Element Found with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Sent data on the element with locator: email and locatorType: id
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Element Found with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Sent data on the element with locator: password and locatorType: id
+LoginPage: 03/08/2021 01:42:50 PM - INFO: Element Found with locator: //input[@value='Login'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:53 PM - INFO: Clicked on the element with locator: //input[@value='Login'] and locatorType: xpath
+Util: 03/08/2021 01:42:53 PM - INFO: Actual Text From Application Web UI --> :: My Courses
+Util: 03/08/2021 01:42:53 PM - INFO: Expected Text From Application Web UI --> :: Google
+Util: 03/08/2021 01:42:53 PM - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+TestStatus: 03/08/2021 01:42:53 PM - ERROR: #### VERIFICATION FAILED :: Title Verified
+TestStatus: 03/08/2021 01:42:53 PM - INFO: Screenshot save to directory: C:\Users\Mathe\workspace_python\automationFramework\base\../screenshots/Title Verified.1628012573606.png
+LoginPage: 03/08/2021 01:42:53 PM - INFO: Element Found with locator: //button[@id='dropdownMenu1']//span[text()='My Account'] and locatorType: xpath
+LoginPage: 03/08/2021 01:42:53 PM - INFO: Found element
+TestStatus: 03/08/2021 01:42:53 PM - INFO: #### VERIFICATION SUCCESSFUL :: Login was successful
+TestStatus: 03/08/2021 01:42:53 PM - ERROR: test_validLogin #### TEST FAILED 

@@ -2,7 +2,6 @@ from pages.home.login_page import LoginPage
 from utilities.teststatus import TestStatus
 import unittest
 import pytest
-import time
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -26,6 +25,5 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
         self.login_Page.login("test@email.com", "abcabc091022091022091022091022")
-        #time.sleep(2)
         result = self.login_Page.verifyLoginFailed()
         assert result == True
