@@ -20,7 +20,7 @@ class SeleniumDriver:
         self.driver = driver
 
     def screenShot(self, resultMessage):
-        fileName = resultMessage + "." +str(time.time() * 1000) + ".png"
+        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
         screenshotDirectory = "../screenshots/"
         relativeFileName = screenshotDirectory + fileName
         currentDirectory = os.path.dirname(__file__)
@@ -29,7 +29,7 @@ class SeleniumDriver:
         try:
             if not os.path.exists(destinationDirectory):
                 os.makedirs(destinationDirectory)
-            self.driver.save_screenshots(destinationFile)
+            self.driver.save_screenshot(destinationFile)
             self.log.info("Screenshot save to directory: " + destinationFile)
         except:
             self.log.error("#### EXCEPTION OCCURRED")

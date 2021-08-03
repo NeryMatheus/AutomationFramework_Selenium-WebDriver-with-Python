@@ -26,6 +26,6 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
         self.login_Page.login("test@email.com", "abcabc091022091022091022091022")
-        time.sleep(2)
+        #time.sleep(2)
         result = self.login_Page.verifyLoginFailed()
         assert result == True

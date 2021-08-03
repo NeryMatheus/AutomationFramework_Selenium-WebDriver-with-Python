@@ -49,7 +49,7 @@ class LoginPage(SeleniumDriver):
         return result
 
     def verifyTitle(self):
-        if "My Courses" in self.getTitle():
+        if "My CoursesS" in self.getTitle():
             return True
         else:
             return False
